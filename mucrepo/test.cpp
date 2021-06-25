@@ -5,20 +5,21 @@ int main() {
 
     int choice;
 
-    std::cout << "*****************************\n";
-    std::cout << "#                           #\n";
-    std::cout << "#    MEGAUSEFULLCOMPUTER    #\n";
-    std::cout << "#                           #\n";
-    std::cout << "*****************************\n";
+    std::cout << "**********************************************************************************\n";
+    std::cout << "#                                                                                #\n";
+    std::cout << "#                            MEGAUSEFULLCOMPUTER                                 #\n";
+    std::cout << "#                                                                                #\n";
+    std::cout << "**********************************************************************************\n";
     std::cout << "\n";
-    std::cout << " -- Que voulez-vous faire? --\n";
-    std::cout << "-----------------------------\n";
-    std::cout << "1) Calculer un IMC\n";
-    std::cout << "2) Savoir si une année est bisextile\n";
-    std::cout << "3) Utiliser la loi d'ohm\n";
-    std::cout << "4) Connaitre le carré de l'hypothénuse\n";
-    std::cout << "                             \n";
-    std::cout << "--> Votre choix: ";
+    std::cout << "            -- Que voulez-vous faire? --                             \n";
+    std::cout << "                                                                     \n";
+    std::cout << "                 1) Calculer un IMC\n";
+    std::cout << "                 2) Savoir si une année est bisextile\n";
+    std::cout << "                 3) Utiliser la loi d'ohm\n";
+    std::cout << "                 4) Connaitre le carré de l'hypothénuse\n";
+    std::cout << "                                                                  \n";
+    std::cout << "----------------------------------------------------------------------------------\n";
+    std::cout << "--> Votre choix (1, 2, 3 ou 4): ";
     std::cin >> choice;
 
     switch(choice){

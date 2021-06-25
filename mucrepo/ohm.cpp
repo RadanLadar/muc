@@ -13,6 +13,13 @@ int main() {
     int choice;
     double input1, input2, result;
 
+    std::cout << "**********************************************************************************\n";
+    std::cout << "#                                                                                #\n";
+    std::cout << "#                             OHM LAW COMPUTER                                   #\n";
+    std::cout << "#                      If you'd rather not use your brain...                     #\n";
+    std::cout << "#                                                                                #\n";
+    std::cout << "**********************************************************************************\n\n";    
+
 // Notice
     std::cout << "Quelle valeur recherchez-vous ?\n";
     std::cout << "-------------------------------\n";
