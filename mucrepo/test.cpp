@@ -55,7 +55,7 @@ int main() {
             system("./duremberg");
 
         default:
-        std::cout << "Tapez une valeur valide";       
+        std::cout << "Tapez une valeur valide\n";       
     }
 
 }
