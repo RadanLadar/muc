@@ -17,9 +17,10 @@ int main() {
     std::cout << "                 2) Savoir si une année est bisextile\n";
     std::cout << "                 3) Utiliser la loi d'ohm\n";
     std::cout << "                 4) Connaitre le carré de l'hypothénuse\n";
+    std::cout << "                 5) Calculer la masse graisseuse\n";
     std::cout << "                                                                  \n";
     std::cout << "----------------------------------------------------------------------------------\n";
-    std::cout << "--> Votre choix (1, 2, 3 ou 4): ";
+    std::cout << "--> Votre choix (1, 2, 3, 4 ou 5): ";
     std::cin >> choice;
 
     switch(choice){
@@ -47,6 +48,12 @@ int main() {
             std::cout << "\n";
             system("./pythagore");
         break;
+        case 5:
+            std::cout << "Starting Duremberg\n";
+            std::cout << "\n";
+            std::cout << "\n";
+            system("./duremberg");
+
         default:
         std::cout << "Tapez une valeur valide";       
     }
